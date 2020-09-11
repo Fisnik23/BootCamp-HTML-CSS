@@ -1,0 +1,238 @@
+@media (min-width: 1200px)
+{
+    body
+    {
+        background-image: url("Photos/pic5.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+    }
+
+    .header
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: baseline;
+        align-content: stretch;
+    }
+
+    .nav
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: stretch;
+        align-content: space-between;
+        width: 20%;
+    }
+
+    .header a
+    {
+        text-decoration: none;
+        color: #1c345c;
+    }
+
+    .header h1
+    {
+        color: #37447e;
+        font-weight: bold;
+    }
+
+    .container
+    {
+        display: flex;
+        width: 80%;
+        min-height: 100%;
+        margin: 0 auto;
+    }
+
+    .container .column
+    {
+        flex:1;
+        padding: 0 5%;
+    }
+
+    .container.one
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    .container.one h1
+    {
+        font-size: 350%;
+    }
+
+    .container.two
+    {
+        margin-top:30%;
+    }
+
+    .container .column.second
+    {
+        background-image: url("Photos/pic4.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .container .column.third
+    {
+        background-image: url("Photos/pic3.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .container .column.fourth
+    {
+        background-image: url("Photos/pic2.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .container .column.fifth
+    {
+        background-image: url("Photos/pic1.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .column h1
+    {
+        color: #111b47;
+    }
+
+    .column p
+    {
+        color:#505f98;
+    }
+
+    .btn
+    {
+        background-color: #111b47;
+        color: white;
+        font-size: 100%;
+        padding: 5px 40px;
+        border-width: 2px;
+        border-radius: 5px;
+        border-style: solid ;
+        border-color: #111b47;
+    }
+
+    .btnLearnMore
+    {
+        background-color: white;
+        border-width: 2px;
+        border-radius: 5px;
+        border-style: solid ;
+        border-color: #111b47;
+        color: #111b47;
+        font-size: 100%;
+        padding: 5px 40px;
+
+    }
+
+    .images
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: baseline;
+        align-content: flex-end;
+    }
+
+    .footer .price
+    {
+        background-image: url("Photos/Rectangle.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+        text-align: center;
+    }
+
+    .footer h1
+    {
+        color: #111b47;
+    }
+
+    .footer p
+    {
+        width: 50%;
+        text-align: center;
+        color:#505f98;
+    }
+
+    .footer span
+    {
+        color:#111b47;
+        text-align: center;
+        font-size: 200%;
+        display: block;
+    }
+
+    .navBottom
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: #e7ecff;
+        justify-content: space-around;
+    }
+
+    .navBottom .first
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: baseline;
+        align-content: flex-end;
+    }
+
+    .navBottom .first p
+    {
+        color: #b0b8bc;
+    }
+
+    .second .nav2 a
+    {
+        text-decoration: none;
+        color: #929ecc;
+        width: 100px;
+    }
+
+    .social a
+    {
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #e7ecff;
+        color: #b0b8bc;
+    }
+
+    .navBottom h1
+    {
+        color: #37447e;
+    }
+
+    .navBottom .second
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: stretch;
+        align-content: stretch;
+        padding: 2% 0;
+    }
+}
